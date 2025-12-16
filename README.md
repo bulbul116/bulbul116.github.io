@@ -109,7 +109,7 @@ Always do your own research (DYOR).
 
 ## 👤 Admin
 
-- Maintained by: **Bulbul Hussain**
+- Maintained by: **Admin**
 - Platform: GitHub Pages
 - Hosting cost: **$0**
 - Backend: **None (static & secure)**
