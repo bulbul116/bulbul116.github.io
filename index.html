@@ -6,84 +6,109 @@
 
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #e0e7ff, #f8fafc);
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(135deg, #6366f1, #22d3ee);
       margin: 0;
       padding: 0;
     }
 
     .container {
-      max-width: 950px;
-      margin: 40px auto;
+      max-width: 1000px;
+      margin: 50px auto;
       background: #ffffff;
-      padding: 35px;
-      border-radius: 14px;
-      box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+      padding: 40px;
+      border-radius: 18px;
+      box-shadow: 0 20px 45px rgba(0,0,0,0.15);
     }
 
     h1 {
-      color: #1e40af;
-      margin-bottom: 5px;
+      font-size: 36px;
+      background: linear-gradient(90deg, #4f46e5, #06b6d4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 10px;
     }
 
     h2 {
-      margin-top: 35px;
+      margin-top: 40px;
       color: #111827;
+      border-left: 6px solid #6366f1;
+      padding-left: 12px;
     }
 
     p, li {
       color: #374151;
-      line-height: 1.7;
+      line-height: 1.8;
+      font-size: 16px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #ecfeff;
+      color: #0891b2;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: bold;
+      margin-bottom: 10px;
     }
 
     .notice {
-      background: #fff7ed;
-      padding: 18px;
+      background: linear-gradient(135deg, #fff7ed, #ffedd5);
+      padding: 20px;
       border-left: 6px solid #f59e0b;
-      border-radius: 8px;
+      border-radius: 12px;
       margin-top: 15px;
     }
 
     .box {
-      background: #eef2ff;
-      padding: 25px;
-      border-radius: 12px;
-      margin-top: 20px;
+      background: linear-gradient(135deg, #eef2ff, #e0f2fe);
+      padding: 28px;
+      border-radius: 16px;
+      margin-top: 25px;
     }
 
     .danger {
-      background: #fef2f2;
+      background: linear-gradient(135deg, #fef2f2, #ffe4e6);
       border-left: 6px solid #ef4444;
     }
 
     .btn {
       display: inline-block;
-      background: #2563eb;
-      color: white;
-      padding: 14px 24px;
+      background: linear-gradient(90deg, #4f46e5, #06b6d4);
+      color: #ffffff;
+      padding: 15px 28px;
       text-decoration: none;
-      border-radius: 8px;
+      border-radius: 30px;
       font-weight: bold;
-      margin-top: 12px;
+      margin-top: 15px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
 
     .btn:hover {
-      background: #1d4ed8;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
     }
 
     .btn-red {
-      background: #dc2626;
-    }
-
-    .btn-red:hover {
-      background: #b91c1c;
+      background: linear-gradient(90deg, #ef4444, #f97316);
     }
 
     footer {
-      margin-top: 50px;
+      margin-top: 60px;
       text-align: center;
       font-size: 14px;
       color: #6b7280;
+    }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, #c7d2fe, transparent);
+      margin: 40px 0;
     }
   </style>
 </head>
@@ -92,77 +117,86 @@
 
 <div class="container">
 
+<span class="badge">MANUAL • VERIFIED • SAFE</span>
 <h1>Free Crypto Opportunities</h1>
-<p>Verified crypto opportunities — <strong>manual review only</strong>.</p>
+<p>Discover crypto opportunities with a <strong>manual admin review system</strong>.</p>
 
 <h2>Important Safety Notice</h2>
 <div class="notice">
-  ❌ We do NOT collect private keys<br>
-  ❌ We do NOT ask users to connect wallets<br>
-  ❌ We do NOT guarantee rewards or profits<br>
-  ✅ All listings are reviewed manually by admin
+  ❌ We never collect private keys or seed phrases<br>
+  ❌ We never ask users to connect wallets<br>
+  ❌ No profit or reward guarantees<br>
+  ✅ Every listing is reviewed manually by admin
 </div>
+
+<div class="divider"></div>
 
 <h2>Verified Opportunities</h2>
 <ul>
   <li>
     <strong>Binance Learn & Earn</strong><br>
-    Learn crypto basics and earn rewards from Binance.<br>
+    Learn crypto basics and earn rewards from a trusted exchange.<br>
     🔗 https://www.binance.com/en/learn-and-earn
   </li>
   <br>
   <li>
     <strong>Blockchain Testnets</strong><br>
-    Participate in early testnets and learn new ecosystems.<br>
+    Explore early blockchain networks and gain hands-on experience.<br>
     🔗 https://cryptotesters.com
   </li>
 </ul>
+
+<div class="divider"></div>
 
 <h2>Submit Your Project</h2>
 <div class="box">
   <p>
     Are you a crypto project owner?<br>
-    Submit your project for <strong>manual admin review</strong>.
+    Submit your project for <strong>manual admin verification</strong>.
   </p>
 
   <a class="btn" href="https://forms.gle/jmraQYEnKZTJXDHw5" target="_blank">
-    Submit Project
+    🚀 Submit Project
   </a>
 
-  <p style="font-size:14px; margin-top:12px;">
-    ⚠️ Submission does NOT guarantee listing.<br>
+  <p style="font-size:14px; margin-top:14px;">
+    ⚠️ Submission does not guarantee listing.<br>
     Scam, phishing, or wallet-draining projects are permanently rejected.
   </p>
 </div>
 
+<div class="divider"></div>
+
 <h2>Report a Scam or Suspicious Project</h2>
 <div class="box danger">
   <p>
-    If you see a suspicious link, fake airdrop, or scam activity,
-    please report it to help protect the community.
+    Help protect the community.<br>
+    Report fake airdrops, phishing links, or suspicious behavior.
   </p>
 
   <a class="btn btn-red" href="https://forms.gle/jmraQYEnKZTJXDHw5" target="_blank">
-    Report Scam
+    🚨 Report Scam
   </a>
 
-  <p style="font-size:14px; margin-top:12px;">
-    Reports are reviewed manually. False reports are ignored.
+  <p style="font-size:14px; margin-top:14px;">
+    All reports are reviewed manually. Abuse of reports is ignored.
   </p>
 </div>
+
+<div class="divider"></div>
 
 <h2>Admin Review Rules</h2>
 <ul>
   <li>No auto-listing</li>
-  <li>No wallet approvals required</li>
+  <li>No wallet approvals</li>
   <li>No private keys or seed phrases</li>
-  <li>No paid guarantees</li>
-  <li>Phishing or scam = lifetime ban</li>
+  <li>No paid listing guarantees</li>
+  <li>Scam or phishing = lifetime ban</li>
 </ul>
 
 <footer>
-  Admin: <strong>Bulbul Hussain</strong><br>
-  Hosted free on GitHub Pages · No backend · Manual moderation
+  Admin: <strong>Admin</strong><br>
+  Hosted on GitHub Pages · Static · Manual Moderation
 </footer>
 
 </div>
